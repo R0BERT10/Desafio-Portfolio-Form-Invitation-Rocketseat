@@ -1,2 +1,5 @@
 @import url(global.css);
 @import url(utility.css);
+
+@import url(inputs.css);
+@import url(buttons.css);

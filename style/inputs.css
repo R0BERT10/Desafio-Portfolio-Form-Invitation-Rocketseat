@@ -1,0 +1,31 @@
+input[type=text], textarea {
+    background-color: var(--color-input-base);
+    color: var(--color-text-heading);
+    border: 1px solid var(--color-input-stroke);
+    border-radius: 0.5rem;
+    font: var(--Typo-Body-Md);
+    padding-inline: 1rem;
+
+    &::placeholder {
+        color: var(--color-input-placeholder);
+        font: var(--Typo-Body-Md);
+    }
+
+    &:focus, &:hover {
+        border: 1px solid var(--color-brand-light);
+        outline: none;
+    }
+
+    &:invalid {
+        border: 1px solid var(--color-danger);
+        outline: none;
+    }
+}
+
+input[type=text] {
+    height: 3rem;
+}
+
+textarea {
+    padding: 1rem;
+}
