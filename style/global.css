@@ -50,14 +50,18 @@
     --Font-Family-open-sans: "Open Sans", 'Helvetica', 'sans-serif';
 
     /*Typos*/
-    --Typo-Title-Lg: 700 56px/120% var(--Font-Family-Asap);
+    --Typo-logo: 400 40px/100% var(--Font-Family-leckerli-one);
 
-    --Typo-logo: Regular 40px/auto var(--Font-Family-leckerli-one);
+    --Typo-Heading-Md: 700 28px/100% var(--Font-Family-baloo-2);
+    --Typo-Heading-Sm: 700 18px/100% var(--Font-Family-baloo-2);
 
-    --Typo-Heading-Md: Bold 28px/Auto var(--Font-Family-baloo-2);
-    --Typo-Heading-Sm: Bold 18px/Auto var(--Font-Family-baloo-2);
+    --Typo-Body-Md: 600 16px/100% var(--Font-Family-open-sans);
+    --Typo-Body-Sm: 600 14px/100% var(--Font-Family-open-sans);
+    --Typo-Body-Xs: 600 12px/100% var(--Font-Family-open-sans);
+}
 
-    --Typo-Body-Md: Regular/SemiBold 16px/Auto var(--Font-Family-open-sans);
-    --Typo-Body-Sm: Regular/SemiBold 14px/Auto var(--Font-Family-open-sans);
-    --Typo-Body-Xs: Regular/SemiBold 12px/Auto var(--Font-Family-open-sans);
+body {
+    background-color: var(--color-shape-background);
+    color: var(--color-text-heading);
+    padding: 1.25rem;
 }
