@@ -7,3 +7,25 @@
     height: 1.25rem;
     width: 1.25rem;
 }
+.size-24 {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.height-136 {
+    height: 8.5rem;
+}
+
+.flex-gap-12 {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.flex-max-basis {
+    flex-basis: 100%;
+}
+
+.grid-span-2 {
+    grid-column: span 2;
+}
