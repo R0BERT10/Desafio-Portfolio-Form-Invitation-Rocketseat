@@ -23,6 +23,56 @@
             </article>
         </div>
     </aside>
+    <main>
+        <h2>Crie seu convite</h2>
+        <form>
+            <fieldset>
+                <legend class="flex-gap-12">
+                    <img class="size-24" src="assets/icons/calendar-gray.svg">
+                    Sobre o evento
+                </legend>
+                <div class="fieldset-content">
+                    <div class="input-wrapper grid-span-2">
+                        <label for="title">Título</label>
+                        <input type="text" name="title" placeholder="Nome do evento">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="initial-date">Início</label>
+                        <input type="date" name="initial-date" placeholder="DD/MM/AAAA, --:--">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="end-date">Fim</label>
+                        <input type="date" name="end-date" placeholder="DD/MM/AAAA, --:--">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="event-type">Tipo</label>
+                        <div class="segmented-control">
+                            <label class="option">
+                                <svg class="size-16" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#869198" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+                                <input type="radio" name="event-type" value="presencial">
+                                Presencial
+                            </label>
+                            <label class="option">
+                                <svg class="size-16" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#869198" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+                                <input type="radio" name="event-type" value="online">
+                                Online
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="local">Local</label>
+                        <input type="text" name="local" placeholder="Link ou endereço">
+                    </div>
+                    <div class="input-wrapper grid-span-2 ">
+                        <label for="description">Descrição</label>
+                        <textarea class="height-136" name="description"
+                            placeholder="Escreva sobre os detalhes do evento"></textarea>
+                    </div>
+
+                </div>
+            </fieldset>
+        </form>
+    </main>
 </body>
 
 </html>

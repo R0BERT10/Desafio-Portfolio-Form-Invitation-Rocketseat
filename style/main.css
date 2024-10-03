@@ -1,0 +1,42 @@
+main {
+    border-radius: 0.75rem;
+    background-color: var(--color-shape-body);
+    display: grid;
+    justify-content: center;
+    padding-block: 5rem;
+    gap: 2.5rem;
+    overflow: auto;
+
+    form {
+        display: grid;
+        gap: 3rem;
+        align-items: start;
+        max-width: 35rem;
+        width: 35rem;
+    }
+    fieldset {
+        display: grid;
+        border: none;
+        padding-top: 1.5rem;
+    }
+    .fieldset-content{
+        display: grid;
+        gap: 1rem;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto;
+    }
+    legend {
+        font: var(--Typo-Heading-Sm);
+        color: var(--color-text-heading);
+    }
+
+    label {
+        font: var(--Typo-Body-Sm);
+        color: var(--color-text-body);
+    }
+
+    .input-wrapper {
+        display: grid;
+        gap: 0.75rem;
+    }
+}
