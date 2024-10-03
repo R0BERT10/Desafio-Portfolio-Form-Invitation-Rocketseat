@@ -1,0 +1,30 @@
+aside {
+    border-radius: 1.25rem;
+    background-color: var(--color-shape-body);
+    background-image: url(..//assets/images/Background.png);
+    background-size: cover;
+    background-position: center;
+
+    padding: 2rem;
+    div {
+        display: grid;
+        gap: 1rem;
+    }
+
+    img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    span {
+        font: var(--Typo-logo);
+        color: var(--color-pink);
+    }
+
+    p {
+        font: var(--Typo-Body-Md);
+        font-weight: 300;
+        color: var(--color-text-heading);
+    }
+}
+
