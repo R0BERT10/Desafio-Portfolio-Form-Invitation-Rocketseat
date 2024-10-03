@@ -50,14 +50,14 @@
     --Font-Family-open-sans: "Open Sans", 'Helvetica', 'sans-serif';
 
     /*Typos*/
-    --Typo-logo: 400 40px/100% var(--Font-Family-leckerli-one);
+    --Typo-logo: 400 2.5rem/100% var(--Font-Family-leckerli-one);
 
-    --Typo-Heading-Md: 700 28px/100% var(--Font-Family-baloo-2);
-    --Typo-Heading-Sm: 700 18px/100% var(--Font-Family-baloo-2);
+    --Typo-Heading-Md: 700 1.75rem/100% var(--Font-Family-baloo-2);
+    --Typo-Heading-Sm: 700 1.125rem/100% var(--Font-Family-baloo-2);
 
-    --Typo-Body-Md: 600 16px/100% var(--Font-Family-open-sans);
-    --Typo-Body-Sm: 600 14px/100% var(--Font-Family-open-sans);
-    --Typo-Body-Xs: 600 12px/100% var(--Font-Family-open-sans);
+    --Typo-Body-Md: 600 1rem/100% var(--Font-Family-open-sans);
+    --Typo-Body-Sm: 600 0.875rem/100% var(--Font-Family-open-sans);
+    --Typo-Body-Xs: 600 0.75rem/100% var(--Font-Family-open-sans);
 }
 
 body {
