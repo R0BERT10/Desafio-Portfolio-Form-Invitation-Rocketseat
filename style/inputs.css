@@ -1,4 +1,4 @@
-input[type=text], textarea {
+input[type=text], input[type=date], textarea {
     background-color: var(--color-input-base);
     color: var(--color-text-heading);
     border: 1px solid var(--color-input-stroke);
@@ -22,10 +22,50 @@ input[type=text], textarea {
     }
 }
 
-input[type=text] {
+input[type=text], input[type=date] {
     height: 3rem;
 }
 
+.segmented-control {
+    border-radius: 0.5rem;
+    height: 3rem;
+    padding: 0.25rem;
+    display: flex;
+    gap: 0.25rem;
+    background-color: var(--color-input-base);
+    border: 1px solid var(--color-input-stroke);
+
+    .option {
+        border-radius: 0.25rem;
+        padding: 0.25rem;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        gap: 0.25rem;
+
+        font: var(--Typo-Body-Sm);
+        color: var(--color-text-body);
+
+        input {
+            appearance: none;
+        }
+        
+        &:has(input:checked) {
+            border-radius: 0.313rem;
+            background-color: var(--color-shape-button);
+            font-weight: 600;
+            color: var(--color-text-heading);
+            
+            svg {
+                stroke: var(--color-brand-light);
+            }
+        }
+
+
+        
+    }
+}
 textarea {
     padding: 1rem;
 }
