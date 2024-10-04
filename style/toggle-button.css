@@ -1,0 +1,58 @@
+.toggle-button-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    height: 3rem;
+
+    span {
+        font: var(--Typo-Body-Sm);
+        color: var(--color-text-heading);
+        width: 3rem;
+    }
+}
+
+.switch {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color-input-stroke);
+    background-color: var(--color-input-base);
+    padding: 0.25rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    input {
+        appearance: none;
+        position: absolute;
+    }
+    &::before {
+        content: "";
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 100%;
+        background-color: var(--color-input-stroke);
+    } 
+    &:has(input:checked) {
+        background-color: var(--color-brand-light);
+        justify-content: flex-end;
+    }
+
+}
+.toggle-button-state {
+    display: flex;
+    align-content: center;
+    
+    .toggle-true {
+        position: absolute;
+    }
+}
+
+.switch:has(input:checked) ~ .toggle-button-state {
+    .toggle-true {
+        position: static;
+    }
+    .toggle-false {
+        position: absolute;
+    }
+}
