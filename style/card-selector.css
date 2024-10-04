@@ -1,0 +1,38 @@
+.card-selector {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8.375rem, 1fr));
+    gap: 0.5rem;
+
+    .card {
+        padding: 0.25rem;
+        padding-bottom: 0.5rem;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        gap: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--color-input-stroke);
+        background-color: var(--color-shape-button);
+        position: relative;
+        img {
+            border-radius: 0.25rem;
+            height: 4rem;
+            background-color: var(--color-input-placeholder);
+        }
+        input {
+            appearance: none;
+            position: absolute;
+        }
+        span {
+            font: var(--Typo-Body-Sm);
+            color: var(--color-text-heading);
+        }
+        &:hover {
+            background-color: var(--color-shape-hover);
+        }
+        &:has(input:checked) {
+            outline: 1px solid var(--color-brand-light);
+            border: 1px solid var(--color-brand-light);
+        }
+    }
+}
