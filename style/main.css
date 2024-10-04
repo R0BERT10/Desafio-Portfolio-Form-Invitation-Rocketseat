@@ -23,7 +23,6 @@ main {
         display: grid;
         gap: 1rem;
         flex-wrap: wrap;
-        grid-template-columns: auto auto;
     }
     legend {
         font: var(--Typo-Heading-Sm);
