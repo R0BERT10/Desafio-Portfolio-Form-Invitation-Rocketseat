@@ -11,7 +11,10 @@
     height: 1.5rem;
     width: 1.5rem;
 }
-
+.size-40 {
+    height: 2.5rem;
+    width: 2.5rem;
+}
 .height-136 {
     height: 8.5rem;
 }
@@ -26,6 +29,52 @@
     flex-basis: 100%;
 }
 
+.grid-columns-2 {
+    grid-template-columns: repeat(2, auto);
+}
+
+.grid-columns-3 {
+    grid-template-columns: repeat(3, auto);
+}
+
 .grid-span-2 {
     grid-column: span 2;
+}
+
+.grid-span-3 {
+    grid-column: span 3;
+}
+
+.bg-color-purple {
+    background-color: var(--color-purple)
+}
+.bg-color-fuschia {
+    background-color: var(--color-fuschia)
+}
+.bg-color-pink {
+    background-color: var(--color-pink)
+}
+.bg-color-orange {
+    background-color: var(--color-orange)
+}
+.bg-color-yellow {
+    background-color: var(--color-yellow)
+}
+.bg-color-lime {
+    background-color: var(--color-lime)
+}
+.bg-color-green {
+    background-color: var(--color-green)
+}
+.bg-color-cyan {
+    background-color: var(--color-cyan)
+}
+.bg-color-navy {
+    background-color: var(--color-navy)
+}
+.bg-color-red {
+    background-color: var(--color-danger);
+}
+.bg-color-light-blue {
+    background-color: var(--color-brand-light);
 }
