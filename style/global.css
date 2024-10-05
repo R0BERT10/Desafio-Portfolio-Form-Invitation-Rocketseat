@@ -55,7 +55,7 @@
     --Typo-Heading-Md: 700 1.75rem/100% var(--Font-Family-baloo-2);
     --Typo-Heading-Sm: 700 1.125rem/100% var(--Font-Family-baloo-2);
 
-    --Typo-Body-Md: 600 1rem/100% var(--Font-Family-open-sans);
+    --Typo-Body-Md: 400 1rem/100% var(--Font-Family-open-sans);
     --Typo-Body-Sm: 400 0.875rem/100% var(--Font-Family-open-sans);
     --Typo-Body-Xs: 600 0.75rem/100% var(--Font-Family-open-sans);
 }
