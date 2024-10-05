@@ -14,16 +14,19 @@ main {
         max-width: 35rem;
         width: 35rem;
     }
+
     fieldset {
         display: grid;
         border: none;
         padding-top: 1.5rem;
     }
-    .fieldset-content{
+
+    .fieldset-content {
         display: grid;
         gap: 1rem;
         flex-wrap: wrap;
     }
+
     legend {
         font: var(--Typo-Heading-Sm);
         color: var(--color-text-heading);
@@ -43,5 +46,25 @@ main {
         display: flex;
         align-items: center;
         gap: 0.75rem;
+    }
+
+    footer {
+        display: grid;
+        gap: 3rem;
+        padding-top: 2.5rem;
+        border-top: 1px solid var(--color-input-stroke);
+    }
+
+    .accepts {
+        display: grid;
+        gap: 0.25rem;
+    }
+
+    .submit {
+        justify-self: flex-end;
+
+        button {
+            color: var(--color-text-heading);
+        }
     }
 }
