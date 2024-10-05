@@ -1,5 +1,5 @@
 .primary-button, .secondary-button {
-    border-radius: 8px;
+    border-radius: 0.5rem;
     border: none;
     display: flex;
     align-items: center;  
@@ -25,4 +25,7 @@
     &:hover {
         background-color: var(--color-shape-hover);
     }
+
+    font: var(--Typo-Body-Sm);
+    font-weight: 600;
 }
