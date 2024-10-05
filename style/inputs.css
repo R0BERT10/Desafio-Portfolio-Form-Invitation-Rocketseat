@@ -38,9 +38,7 @@ input[type=file] {
 
 .no-button-file-default {
     &::-webkit-file-upload-button, ::file-selector-button {
-        width: 0;
-        height: 0;
-        position: absolute;
+        display: none;
     }
 }
 

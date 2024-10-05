@@ -44,15 +44,15 @@
     align-content: center;
     
     .toggle-true {
-        position: absolute;
+        display: none;
     }
 }
 
 .switch:has(input:checked) ~ .toggle-button-state {
     .toggle-true {
-        position: static;
+        display: inline;
     }
     .toggle-false {
-        position: absolute;
+        display: none;
     }
 }
