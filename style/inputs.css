@@ -22,8 +22,26 @@ input[type=text], input[type=date], textarea {
     }
 }
 
-input[type=text], input[type=date] {
+input {
     height: 3rem;
+}
+
+input[type=file] {
+    font: var(--Typo-Body-Md);
+    color: var(--color-input-placeholder);
+    padding-block: 0.9rem;
+
+    &:valid {
+        color: var(--color-text-body);
+    }
+}
+
+.no-button-file-default {
+    &::-webkit-file-upload-button, ::file-selector-button {
+        width: 0;
+        height: 0;
+        position: absolute;
+    }
 }
 
 .segmented-control {
