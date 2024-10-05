@@ -84,6 +84,38 @@ input[type=file] {
         
     }
 }
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-block: 0.25rem;
+    font: var(--Typo-Body-Sm);
+    color: var(--color-text-body);
+
+    .checkbox {
+        background-color: var(--color-input-base);
+        border: 1px solid var(--color-input-stroke);
+        border-radius: 0.25rem;
+        height: 1.25rem;
+        width: 1.25rem;
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+    input[type="checkbox"]:checked + .checkbox {
+        border-color: var(--color-brand-light);
+        background-image: url(..//assets/icons/check-light-blue.svg);
+        background-position: center;
+        background-clip: contain;
+    }
+
+    a {
+        text-decoration-line: none;
+        color: var(--color-brand-light);
+    }
+}
+
 textarea {
     padding: 1rem;
 }
