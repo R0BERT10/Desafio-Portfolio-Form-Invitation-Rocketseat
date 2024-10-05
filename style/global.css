@@ -67,8 +67,11 @@ body {
     height: 100vh;
     display: grid;
     gap: 1.25rem;
-    grid-template-columns: 32% auto;
-    overflow: hidden;
+    grid-template-columns: 24rem auto;
+    
+    &::before {
+        content: "";
+    }
 }
 
 h2 {

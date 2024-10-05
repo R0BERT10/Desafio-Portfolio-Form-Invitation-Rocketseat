@@ -4,8 +4,14 @@ aside {
     background-image: url(..//assets/images/Background.png);
     background-size: cover;
     background-position: center;
-
     padding: 2rem;
+    position: fixed;
+    --margin: 1.25rem;
+    top: var(--margin);
+    left: var(--margin);
+    bottom: var(--margin);
+    width: 24rem;
+
     div {
         display: grid;
         gap: 1rem;
