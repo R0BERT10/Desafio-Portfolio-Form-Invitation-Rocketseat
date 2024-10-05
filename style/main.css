@@ -38,4 +38,10 @@ main {
         display: grid;
         gap: 0.75rem;
     }
+
+    .file-selection {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
 }
